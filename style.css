@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+body{
+width: 100%;
+min-height: 100vh;
+background-color: #d50404;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+    
+}
+
+.instagram-wrapper{
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone{
+
+
+display: flex;
+align-items: center;
+justify-content: center;
+width: 50%;
+}
+
+.instagram-continue{
+    display: flex;
+    align-items: center; /*horizontal*/
+    justify-content: space-around; /*vertical */
+    flex-direction: column;
+    width: 50%;
+    min-height: 38rem;
+   
+}
+
+.group{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 0px solid lightgray;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.group:nth-child(1){
+    min-height: 19rem;
+}
+
+.instagram-logo{
+    height: 3rem;
+}
+
+.instagram-continue img{
+    height: 0rem;
+}
+
+.profile-photo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.profile-photo img{
+    height: 6rem;
+}
+.instagram-login{
+    background-color: #d50404;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+.instagram-logout{
+    color: #d50404;
+    margin-top: 1rem;
+}
+
+.link-blue{
+    color: #d50404
+    
+}
+.get-the-app{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    width: 10rem;
+    background-size:contain;
+    border-radius: 4px;
+    
+
+}
+.app-download:nth-child(1)
+{
+    background-image: url(/eggs.png);
+}
